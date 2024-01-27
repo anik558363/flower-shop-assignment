@@ -320,10 +320,63 @@ nav {
     font-size: 40px;
     font-weight: 800;
 }
+
 .latest-deals-info>p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
     margin-bottom: 48px;
+}
+
+
+
+/* footer related style */
+
+footer {
+    background-color: #272727;
+    color: white;
+}
+
+
+.footer-container {
+    text-align: center;
+    
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: px;
+}
+
+.footer-container>h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.footer-container>p {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding-bottom: 15px;
+}
+
+.social-link > img{
+    width: 30px;
+}
+
+
+.hr-3{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.copy{
+    text-align: center;
+    margin-top: 20px;
+   padding-bottom: 30px;
 }
