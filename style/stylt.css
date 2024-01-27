@@ -3,3 +3,52 @@
     padding: 0px;
     font-family: 'Lato', sans-serif;
 }
+
+
+
+
+
+
+/* nav related style */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.img-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-icon small{
+    font-size: 10px;
+    color: rgb(240, 8, 8);
+}
+
+.nav-icon{
+    width: 50px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-style: italic;
+}
+
+.menu-items li{
+    list-style: none;
+}
+
+
+.menu-items li:hover{
+    color: rgb(4, 217, 241);
+    cursor: pointer;
+    text-decoration: underline;
+}
