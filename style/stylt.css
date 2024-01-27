@@ -157,7 +157,7 @@ nav {
     background-color: antiquewhite;
     padding: 40px 30px 0px 30px;
     /* padding-bottom: 10px; */
-    border-radius: 50% 50% 0% 0%;
+    border-radius: 300px 300px 0px 0px;
     margin-bottom: 20px;
 }
 
@@ -258,17 +258,72 @@ nav {
 
 /* background-container */
 
-.background-container{
+.background-container {
     width: 1400px;
     margin: 0 auto;
     padding: 0 auto;
     margin-bottom: 128px;
-}
-.background-container img{
-    width: 300px;
-   padding-left: 47px;
+    display: flex;
+
 }
 
-.extra{
-    padding: 0px!important;
+.img-container {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-container>img {
+    width: 300px;
+    padding-left: 60px;
+    /* padding-left: 50px; */
+}
+
+.extra {
+    padding-left: 0px !important;
+}
+
+
+
+/* Latest Deals section related style */
+
+.Latest-Deals {
+    background-image: url('../images/Rectangle\ 9.png');
+    width: 1400px;
+    height: 450px;
+    margin: 0px auto 128px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.background-input {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px 300px 20px 20px;
+    border: none;
+}
+
+.background-btn {
+    margin-left: 10px;
+    padding: 22px 30px;
+}
+
+.latest-deals-info>h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.latest-deals-info>p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 48px;
 }
